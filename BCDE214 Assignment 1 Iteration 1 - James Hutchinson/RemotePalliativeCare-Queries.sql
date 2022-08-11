@@ -1,7 +1,6 @@
 /* Queries */
 
 USE remotepalliativecare;
-SELECT * FROM Contact;
 -- check what patients had contact to certain worker and why
 SET @worker_number = 12;
 SELECT c.patientNumber AS 'Patient Number', 
