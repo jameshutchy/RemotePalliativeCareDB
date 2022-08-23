@@ -2,7 +2,6 @@
 DROP DATABASE IF EXISTS RemotePalliativeCare;
 CREATE DATABASE RemotePalliativeCare;
 USE remotepalliativecare;
-
 DROP TABLE IF EXISTS Patient;
 CREATE TABLE Patient (
 patientNumber INT NOT NULL AUTO_INCREMENT,
@@ -27,6 +26,18 @@ diagnosisNumber INT NOT NULL AUTO_INCREMENT,
 medicalCondition TEXT NOT NULL,
 PRIMARY KEY(diagnosisNumber)
 )ENGINE= InnoDB;
+
+DROP TABLE IF EXISTS PatientDiagnosis;
+CREATE TABLE PatientDiagnosis (
+patientDiagnosisNumber INT NOT NULL AUTO_INCREMENT,
+patientNumber INT NOT NULL,
+diagnosisNumber INT NOT NULL,
+additionalNotes TEXT,
+dateDiagnosed DATE,
+PRIMARY KEY(patientDiagnosisNumber),
+FOREIGN KEY(patientNumber) REFERENCES Patient(patientNumber),
+FOREIGN KEY(diagnosisNumber) REFERENCES Diagnosis(diagnosisNumber)
+)ENGINE = InnoDB;
 
 DROP TABLE IF EXISTS Carer;
 CREATE TABLE Carer (
@@ -72,6 +83,7 @@ FOREIGN KEY(patientNumber) REFERENCES Patient(patientNumber)
 DROP TABLE IF EXISTS ContactCentre;
 CREATE TABLE ContactCentre (
 contactCentreNum INT NOT NULL AUTO_INCREMENT,
+companyName VARCHAR(50) NOT NULL,
 contactNumber VARCHAR(15) NOT NULL,
 address VARCHAR(50) NOT NULL,
 city VARCHAR(40) NOT NULL,
@@ -98,7 +110,8 @@ postalCode INT NOT NULL,
 emailAddress VARCHAR(50),
 startAvailability TIME NOT NULL,
 endAvailability TIME NOT NULL,
-PRIMARY KEY(workerNumber)
+PRIMARY KEY(workerNumber),
+FOREIGN KEY(contactCentreNum) REFERENCES contactcentre(contactCentreNum)
 ) ENGINE=InnoDB;
 
 DROP TABLE IF EXISTS Contact;
@@ -118,10 +131,13 @@ FOREIGN KEY(workerNumber) REFERENCES Worker(workerNumber)
 
 /* test if tables are there */
 USE remotepalliativecare;
-show tables;
+SHOW TABLES;
 SELECT * FROM carer;
 SELECT * FROM contact;
 SELECT * FROM contactor;
 SELECT * FROM patient;
 SELECT * FROM patientcarer;
 SELECT * FROM worker;
+SELECT * FROM diagnosis;
+SELECT * FROM patientdiagnosis;
+SELECT * FROM contactcentre;

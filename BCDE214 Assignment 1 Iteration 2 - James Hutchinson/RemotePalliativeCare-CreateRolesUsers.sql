@@ -31,3 +31,4 @@ GRANT SELECT ON remotepalliativecare.vpercentageofprimarycarerrelationship TO  '
 SHOW GRANTS FOR 'view_user1'@'localhost';
 
 
+

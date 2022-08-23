@@ -1,0 +1,21 @@
+workerNumber,contactCentreNumber,lastName,firstName,title,DOB,gender,contactNumber,address,city,region,postalCode,emailAddress,startAvailability,endAvailability
+1,1,Ayala,Jameson,Mr,1934-06-07,male,(981) 868-2303,857-4926 Non Rd.,Whakatane,South Island,3180,j.ayala1199@aol.ca,6:04:35,21:40:41
+2,1,Kane,Colin,Mr,1925-10-26,male,(823) 274-1543,"P.O. Box 674, 5735 Placerat, Av.",Queenstown,North Island,9742,colinkane8612@aol.conz,6:06:40,23:38:33
+3,1,Gould,Arsenio,Mr,1937-11-26,male,(454) 391-4655,479 Fusce Road,Whakatane,South Island,6724,agould@outlook.com,6:03:55,21:26:20
+4,1,Stanton,Kyle,Mr,1949-10-16,male,(441) 655-8876,"Ap #724-976 Orci, Ave",Napier,South Island,3606,k_stanton5496@outlook.ca,6:11:20,21:22:42
+5,1,Thornton,Quinlan,Mr,1939-03-01,male,(295) 653-4713,4519 Dolor. Rd.,Masterton,South Island,3220,q_thornton2525@outlook.conz,6:00:23,19:09:11
+6,2,Mason,Shay,Mrs,1928-07-04,female,(307) 718-5607,7072 Duis Rd.,Timaru,North Island,6362,m-shay@google.com,7:55:12,23:37:44
+7,2,Bryan,Chava,Mrs,1923-06-23,female,(354) 404-3503,936-7361 Lorem St.,Motueka,North Island,1575,bryan_chava@icloud.conz,8:39:38,19:54:33
+8,2,Pace,Cathleen,Mrs,1942-10-28,female,(817) 528-7266,"534-2312 Semper, Rd.",Wanaka,North Island,5938,pace.cathleen@aol.net,7:57:43,19:09:32
+9,2,Whitley,Jena,Mrs,1938-06-24,female,(325) 336-0213,493-9964 Scelerisque Av.,Porirua,South Island,3718,whitley-jena@aol.org,7:02:53,20:29:30
+10,2,Cohen,Jana,Mrs,1948-07-06,female,(317) 820-9652,"P.O. Box 203, 7164 Bibendum St.",Ashburton,North Island,5002,j.cohen@aol.org,6:37:09,19:53:53
+11,3,Drake,Deborah,Mrs,1934-12-15,female,(471) 875-8218,Ap #782-507 Dictum Ave,Matamata,North Island,7950,ddrake@yahoo.ca,7:29:30,17:31:50
+12,4,King,Giselle,Mrs,1944-02-01,female,(434) 587-2744,647-5653 Metus. St.,Nelson,North Island,5790,giselleking7930@protonmail.conz,7:08:32,20:26:48
+13,4,Rosario,Bianca,Mrs,1940-11-29,female,(446) 886-7614,"Ap #639-5097 Eu, St.",Manukau,North Island,4323,b-rosario@outlook.com,6:31:56,21:25:23
+14,5,Hamilton,Medge,Mrs,1926-10-27,female,(668) 484-8937,"P.O. Box 711, 8849 Ac Road",Whakatane,North Island,8836,medge_hamilton2072@aol.ca,7:12:01,21:21:40
+15,5,Barnes,Destiny,Mrs,1945-04-22,female,(387) 630-2163,"P.O. Box 371, 3358 Mauris Street",Queenstown,South Island,4931,barnesdestiny3743@protonmail.conz,8:00:02,22:40:08
+16,5,Mcconnell,Serina,Mrs,1981-05-26,female,(296) 358-4275,"P.O. Box 720, 4948 Aliquet. Road",Alexandra,North Island,4544,mcconnell_serina@aol.ca,6:47:01,23:32:09
+17,3,Freeman,Phoebe,Mrs,1981-03-14,female,(777) 826-4618,"5506 Enim, Avenue",Whangarei,North Island,9441,phoebefreeman215@yahoo.ca,8:38:08,17:50:58
+18,3,Baker,Bryar,Mrs,1980-04-29,female,(776) 884-1541,9809 Cursus St.,Oamaru,North Island,1101,b.baker@yahoo.net,8:43:32,18:19:27
+19,4,Weaver,Tamekah,Mrs,1987-09-10,female,(929) 347-7225,Ap #260-5977 Convallis Ave,Queenstown,South Island,6862,t.weaver8395@aol.org,8:25:27,21:10:00
+20,4,Wilson,Shelby,Mrs,1983-05-20,female,(581) 737-0723,302-7509 Urna. Ave,Hamilton,South Island,1359,s.wilson@google.ca,8:00:32,17:56:35
